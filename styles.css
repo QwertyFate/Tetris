@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2{
+    color: orange;
+}
+body{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 90vh;
+}
+#tetris-canvas{
+    background-color: white;
+    box-shadow: 0 0 10px 0 lightsalmon;
+}
