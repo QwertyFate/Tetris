@@ -5,9 +5,13 @@
 }
 
 h2{
-    color: orange;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 3rem;
+    color: white;
 }
 body{
+    background-image: url("brickpic.png");
     background-color: black;
     display: flex;
     align-items: center;
@@ -18,4 +22,10 @@ body{
 #tetris-canvas{
     background-color: white;
     box-shadow: 0 0 10px 0 lightsalmon;
+}
+
+p{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 2rem;
+    color: white;
 }
